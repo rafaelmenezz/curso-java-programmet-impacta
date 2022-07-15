@@ -1,0 +1,11 @@
+Conceitos
+
+Tudo em java é classe, exceto os tipos primitivos.
+Em java, tudo inicia com letra minúscula, exceto as classes.
+A classe que representa um programa é aquela que possui o método main().
+Toda classe deve necessariamente fazer parte de um pacote (deve estar em alguma pasta)
+
+	Exemplo: 
+		c:/PrimeiroPrograma.java		-> não compila por não fazer parte de nenhum pacote.
+		
+
