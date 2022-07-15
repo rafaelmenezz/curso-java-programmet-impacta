@@ -8,4 +8,33 @@ Toda classe deve necessariamente fazer parte de um pacote (deve estar em alguma 
 	Exemplo: 
 		c:/PrimeiroPrograma.java		-> não compila por não fazer parte de nenhum pacote.
 		
-JRE - Java Runtime Environment: composto pela JVM + Biblioteca de class
+	JRE - Java Runtime Environment: composto pela JVM + Biblioteca de class
+
+Tipo de variáveis
+
+byte - 128 até 127
+
+byte b1 = 50;
+		byte b2 = 50;
+		
+		byte soma = (byte) (b1 + b2); // typecast
+		
+		// bases numéricas 
+		// todas as operação convertem para o tipo default int
+		
+		int n1 = 100;
+		int n2 = 0100;
+		int n3 = 0x100;
+		int n4 = 0b100;
+		
+		System.out.println("n1: "+ n1);
+		System.out.println("n2: "+ n2);
+		System.out.println("n3: "+ n3);
+		System.out.println("n4: "+ n4);
+		
+		saida:
+		
+		n1: 100
+		n2: 64
+		n3: 256
+		n4: 4
