@@ -6,19 +6,41 @@ public class Exercicio11 {
 
 	public static void main(String[] args) {
 		
-		Double n1, x;
+		int n1, x, y;
+		StringBuilder str = new StringBuilder();
 		
 		Scanner leia = new Scanner(System.in);
 		System.out.println("Informe um número: ");
-		n1 = leia.nextDouble();
+		n1 = leia.nextInt();
 		x = n1;
+		y = n1;
 		
 		
 		while (n1 > 1) {
 			x = x *(n1-1);
 			n1--;
-			System.out.println(x);
+			
+			if (y==n1) {
+				str.append(y);
+				str.append('!');
+				str.append('\n');
+			} else {
+				str.append(y);
+				str.append('!');
+		
+			
+				for (int i = y-1; i >= n1 ; i--) {
+					str.append(" * ");
+					str.append(" ");
+					str.append(i);			
+				}
+				str.append(" = ");
+				str.append(x);
+				str.append('\n');
+			}
+			
 		}
+		System.out.println(str.toString());
 	}
 	
 }
