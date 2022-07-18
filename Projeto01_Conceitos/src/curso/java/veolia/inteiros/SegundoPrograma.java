@@ -1,4 +1,4 @@
-package curso.java.veolia;
+package curso.java.veolia.inteiros;
 
 import javax.swing.JOptionPane;
 
