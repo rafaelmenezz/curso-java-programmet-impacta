@@ -2,6 +2,8 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+// Criar um programa que leia uma base e um expoente e, em seguida, mostre o valor da potência.
+
 public class Exercicio09 {
 
 	public static void main(String[] args) {

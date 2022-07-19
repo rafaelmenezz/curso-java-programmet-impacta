@@ -1,5 +1,7 @@
 package curso.java.veolia.exercicio;
 
+ // Escrever um programa que mostre no vídeo a tabuada do 2, do 3 e do 5
+
 public class Exercicio10 {
 
 	public static void main(String[] args) {

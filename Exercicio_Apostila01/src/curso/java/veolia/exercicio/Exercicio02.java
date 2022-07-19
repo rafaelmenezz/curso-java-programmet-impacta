@@ -2,6 +2,16 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+/*
+ * 	Um programa contém duas variáveis inteiras e cada uma destas variáveis deve ter um valor fornecido pelo
+	usuário. Escrever um programa que mostre os seguintes resultados:
+	
+	a. A soma das duas variáveis
+	b. A diferença entre as duas variáveis
+	c. O dobro da primeira mais o triplo da segunda variável
+	d. A multiplicação das duas variáveis
+ */
+
 public class Exercicio02 {
 
 	public static void main(String[] args) {

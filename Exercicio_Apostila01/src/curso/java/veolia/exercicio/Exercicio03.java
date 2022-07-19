@@ -2,6 +2,15 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+/*
+  	Escrever um programa que contenha duas variáveis reais, onde a primeira represente um valor e a segunda,
+	uma porcentagem, ambos fornecidos. O programa deve mostrar:
+  	1. O valor da primeira variável
+	2. O valor da porcentagem com seu símbolo
+	3. O resultado da aplicação da porcentagem sobre o valor da primeira variável
+ 
+ */
+
 public class Exercicio03 {
 
 	public static void main(String[] args) {

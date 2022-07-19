@@ -2,6 +2,12 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+/*
+ * 	Escrever um programa que declare duas variáveis inteiras e mostre no vídeo o valor das duas e em seguida, a
+ *	maior delas.
+ * 
+ */
+
 public class Exercicio04 {
 
 	public static void main(String[] args) {

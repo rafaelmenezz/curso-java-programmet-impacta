@@ -2,6 +2,10 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+/*
+ * Escrever um programa que apresente no vídeo seu nome completo em uma linha e o RG na outra.
+ * */
+
 public class Exercicio01 {
 	
 	public static void main(String[] args) {

@@ -2,6 +2,9 @@ package curso.java.veolia.exercicio;
 
 import java.util.Scanner;
 
+
+	//Escrever um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
+
 public class Exercicio11 {
 
 	public static void main(String[] args) {
