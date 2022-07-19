@@ -1,4 +1,4 @@
-package curso.java.veolia.exercicio;
+package curso.java.veolia.extra;
 
 	/*
 	 * Considerando o problema anterior, criar um novo programa que incremente uma variável com a mesma faixa

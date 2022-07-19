@@ -1,4 +1,4 @@
-package curso.java.veolia.exercicio;
+package curso.java.veolia.extra;
 
 import java.util.Scanner;
 

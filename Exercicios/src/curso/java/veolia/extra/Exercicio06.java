@@ -1,4 +1,4 @@
-package curso.java.veolia.exercicio;
+package curso.java.veolia.extra;
 
  //Escrever um programa que apresente seu nome no vídeo 50 vezes.
 
