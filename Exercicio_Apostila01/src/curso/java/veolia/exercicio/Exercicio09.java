@@ -20,5 +20,7 @@ public class Exercicio09 {
 		
 		System.out.println("#############################");
 		System.out.println("Potência: " + (Math.pow(base, expoente)));
+		
+		leia.close();
 	}
 }

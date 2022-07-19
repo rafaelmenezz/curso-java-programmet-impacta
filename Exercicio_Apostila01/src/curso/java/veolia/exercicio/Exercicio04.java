@@ -23,6 +23,8 @@ public class Exercicio04 {
 		System.out.println("Primeiro número: " + n1 + " Segundo número: " + n2);
 		
 		System.out.println("O númeor maior é: " + (n1 > n2 ? n1 : n2));
+		
+		leia.close();
 	}
 
 }

@@ -29,5 +29,7 @@ public class Exercicio03 {
 		System.out.println("b) Valor da porcentagem: " + porcentagem);
 		System.out.println("c) Valor da aplicado: " + (valor + ( valor * (porcentagem/100))));
 		
+		leia.close();
+		
 	}
 }

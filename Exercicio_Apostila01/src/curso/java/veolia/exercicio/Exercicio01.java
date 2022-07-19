@@ -24,7 +24,7 @@ public class Exercicio01 {
 		System.out.println("Nome completo: " + nomeCompleto);
 		System.out.println("Seu rg: " + rg);
 		
-		
+		leia.close();
 	}
 
 }

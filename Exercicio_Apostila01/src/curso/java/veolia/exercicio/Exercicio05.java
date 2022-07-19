@@ -27,5 +27,7 @@ public class Exercicio05 {
 		System.out.print("Informe o salário: ");
 		salario = leia.nextDouble();
 		System.out.println("Sálario líquido é : R$ "+ (salario * 0.8));
+		
+		leia.close();
 	}
 }

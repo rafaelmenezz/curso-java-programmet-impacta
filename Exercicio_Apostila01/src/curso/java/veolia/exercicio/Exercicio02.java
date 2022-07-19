@@ -29,5 +29,7 @@ public class Exercicio02 {
 		System.out.println("b) Diferença: " + (n1 - n2));
 		System.out.println("c) Dobro: numero 1: " + (n1 * 2 ) + " Dobro número 2: " + (n2 * 2));
 		System.out.println("d) Mutiplicação entre duas variáveis: " + (n1 * n2));
+		
+		leia.close();
 	}
 }
