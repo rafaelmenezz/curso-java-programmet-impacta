@@ -74,18 +74,20 @@ public class Conta {
 	
 	public void saque(double valor) {
 		if (this.saldo > valor && valor > 0) {
-			this.saldo = this.saldo + valor;
+			this.saldo = this.saldo - valor;
 		}
 	}
 	
 	public void deposito(double valor) {
 		if (valor > 0) {
-			this.saldo = this.saldo - valor;
+			this.saldo = this.saldo + valor;
+		}else {
+			this.saldo = (this.saldo * (-1)) + valor;
 		}
 		
 	}
 	
-	public void extrato() {
+	public String extrato() {
 	
 		StringBuilder str = new StringBuilder();
 		
@@ -99,7 +101,7 @@ public class Conta {
 			str.append('\n').append("Saldo total: ").append(this.saldo + this.limiteCredito);
 		}
 		
-		System.out.println(str.toString());
+		return str.toString();
 		
 		
 	}
