@@ -1,5 +1,8 @@
 package classes;
 
+import java.text.DecimalFormat;
+import java.util.Formatter;
+import java.util.Objects;
 import java.util.Random;
 
 import curso.java.veolia.excecoes.CargaHorariaException;
@@ -68,5 +71,33 @@ public class Curso implements Comparable<Curso>{
 	public int compareTo(Curso o) {
 		return this.getDescricao().compareTo(o.getDescricao());
 	}
+	
+	public String getLinha() {
+		Formatter formatter = new Formatter();
+		String linha = formatter.format("%n%-6s %-20s %-3s %10s",
+				this.getCodigo(), this.getDescricao(), this.getCh(), new DecimalFormat("#, ##0.00").format(this.getPreco()))
+				.toString();
+		formatter.close();
+		return linha;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(ch, descricao, preco);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Curso other = (Curso) obj;
+		return ch == other.ch && Objects.equals(descricao, other.descricao)
+				&& Double.doubleToLongBits(preco) == Double.doubleToLongBits(other.preco);
+	}
+	
 	
 }

@@ -1,9 +1,11 @@
 package classes;
 
+import java.util.List;
+
 import enumerados.Sexo;
 import interfaces.Busca;
 
-public class Utilitarios {
+public abstract class Utilitarios {
 
 	public static double calculaMedia(double... numeros) {
 		if(numeros == null) {
@@ -53,8 +55,17 @@ public class Utilitarios {
 		return pessoas;
 	}
 	
-	public static boolean verificarTexto(String s, Busca busca) {
+	public static boolean verificarTexto (String s, Busca busca) {
 		return busca.executar(s) > 10;
+	}
+	
+	public static void receberPessoa(List<Pessoa> pessoas) {
+		pessoas.add(new Funcionario(new DocumentoCpf("11111111111"), "Joseph", "Professor", 5000));
+		pessoas.add(new Aluno(new DocumentoCpf("11111111111"), "PHP", "2021"));
+	}
+	
+	public static void receberPessoaGenerica(List<? extends Pessoa> pessoas) {
+		
 	}
 	
 }

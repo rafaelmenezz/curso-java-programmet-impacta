@@ -6,8 +6,8 @@ import interfaces.ValidacaoGeral;
 public class ListaElementos<T> {
 
 	private T[] elementos;
-
-	ListaElementos(T[] elementos){
+	
+	public ListaElementos(T[] elementos) {
 		this.setElementos(elementos);
 	}
 	
@@ -18,9 +18,10 @@ public class ListaElementos<T> {
 	public void setElementos(T[] elementos) {
 		this.elementos = elementos;
 	}
+
 	public T buscarElemento(ValidacaoGeral<T> busca) {
-		for (T item: elementos) {
-			if (busca.validar(item)) {
+		for (T item : elementos) {
+			if(busca.validar(item)) {
 				return item;
 			}
 		}
@@ -28,7 +29,7 @@ public class ListaElementos<T> {
 	}
 	
 	public void pesquisarElementos(Apresentacao app) {
-		for (T item: elementos) {
+		for(T item : elementos) {
 			app.executar(item);
 		}
 	}

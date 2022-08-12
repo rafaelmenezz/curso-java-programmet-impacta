@@ -3,7 +3,7 @@ package classes;
 import enumerados.Sexo;
 import interfaces.Busca;
 
-public class Utilitarios {
+public abstract class Utilitarios {
 
 	public static double calculaMedia(double... numeros) {
 		if(numeros == null) {
@@ -53,8 +53,9 @@ public class Utilitarios {
 		return pessoas;
 	}
 	
-	public static boolean verificarTexto(String s, Busca busca) {
+	public static boolean verificarTexto (String s, Busca busca) {
 		return busca.executar(s) > 10;
 	}
+	
 	
 }
