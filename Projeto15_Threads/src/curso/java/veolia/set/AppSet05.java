@@ -3,7 +3,7 @@ package curso.java.veolia.set;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import classes.Endereco;
+import curso.java.veolia.classes.Endereco;
 
 public class AppSet05 {
 

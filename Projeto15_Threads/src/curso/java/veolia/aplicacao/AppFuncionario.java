@@ -2,8 +2,8 @@ package curso.java.veolia.aplicacao;
 
 import javax.swing.JOptionPane;
 
-import classes.DocumentoCpf;
-import classes.Funcionario;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Funcionario;
 import curso.java.veolia.enumerados.Sexo;
 
 public class AppFuncionario {

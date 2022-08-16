@@ -8,9 +8,9 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
-import classes.DocumentoCnpj;
-import classes.DocumentoCpf;
-import classes.Endereco;
+import curso.java.veolia.classes.DocumentoCnpj;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Endereco;
 import curso.java.veolia.enumerados.Sexo;
 import curso.java.veolia.interfaces.Documento;
 
@@ -138,7 +138,7 @@ public class CadastroAluno extends JFrame {
 					Sexo sexo = (Sexo)cmbSexo.getSelectedItem();
 					String matricula = txtMatricula.getText();
 					
-					classes.Aluno aluno = new classes.Aluno(documento, nome, idade, sexo, matricula);
+					curso.java.veolia.classes.Aluno aluno = new curso.java.veolia.classes.Aluno(documento, nome, idade, sexo, matricula);
 					
 					if(chkIncluirEndereo.isSelected()) {
 						Endereco endereco;

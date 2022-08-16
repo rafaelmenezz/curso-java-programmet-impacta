@@ -1,4 +1,4 @@
-package classes;
+package curso.java.veolia.classes;
 
 import java.io.File;
 import java.io.FileWriter;

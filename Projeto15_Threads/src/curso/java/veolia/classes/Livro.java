@@ -1,4 +1,4 @@
-package classes;
+package curso.java.veolia.classes;
 
 public class Livro {
 

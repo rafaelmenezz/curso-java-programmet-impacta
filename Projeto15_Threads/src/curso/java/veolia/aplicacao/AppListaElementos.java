@@ -1,6 +1,6 @@
 package curso.java.veolia.aplicacao;
 
-import classes.ListaElementos;
+import curso.java.veolia.classes.ListaElementos;
 
 public class AppListaElementos {
 

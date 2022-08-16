@@ -8,8 +8,7 @@ import java.util.Arrays;
 import static java.lang.Integer.parseInt;
 import static java.lang.Double.parseDouble;
 
-
-import classes.Curso;
+import curso.java.veolia.classes.Curso;
 import curso.java.veolia.excecoes.CargaHorariaException;
 import curso.java.veolia.excecoes.ValorException;
 

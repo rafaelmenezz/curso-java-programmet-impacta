@@ -1,9 +1,9 @@
 package curso.java.veolia.aplicacao;
 
-import classes.Aluno;
-import classes.DocumentoCpf;
-import classes.Funcionario;
-import classes.Utilitarios;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Funcionario;
+import curso.java.veolia.classes.Utilitarios;
 import curso.java.veolia.enumerados.Sexo;
 
 public class AppMetodos {

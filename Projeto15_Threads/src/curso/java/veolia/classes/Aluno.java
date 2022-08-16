@@ -1,4 +1,4 @@
-package classes;
+package curso.java.veolia.classes;
 
 import java.util.ArrayList;
 import java.util.Formatter;

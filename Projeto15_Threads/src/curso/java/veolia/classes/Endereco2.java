@@ -1,15 +1,15 @@
-package classes;
+package curso.java.veolia.classes;
 
 import java.util.Objects;
 
-public class Endereco {
+public class Endereco2 {
 
 	private String logradouro;
 	private int numero;
 	private String cidade;
 	private String cep;
 
-	public Endereco(String logradouro, int numero, String cidade, String cep) throws NoSuchFieldException, NoSuchMethodException {
+	public Endereco2(String logradouro, int numero, String cidade, String cep) throws NoSuchFieldException, NoSuchMethodException {
 		this.setLogradouro(logradouro);
 		this.setNumero(numero);
 		this.setCidade(cidade);
@@ -20,17 +20,25 @@ public class Endereco {
 		return logradouro;
 	}
 
-	public void setLogradouro(String logradouro) throws NoSuchFieldException, NoSuchMethodException {
-		if(logradouro == null) {
-			throw new NullPointerException("Logradouro não fornecido");
+	public void setLogradouro(String logradouro) {
+		try {
+			if(logradouro == null) {
+				throw new NullPointerException("Logradouro não fornecido");
+			}
+			if(logradouro.trim().length() == 0) {
+				throw new NoSuchFieldException("Logradouro sem valor");
+			}
+			if(logradouro.trim().length() > 60) {
+				throw new NoSuchMethodException("O logradouro deve ter no máximo 60 caracteres");
+			}
+			this.logradouro = logradouro;
+		} catch (NoSuchFieldException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (NoSuchMethodException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		if(logradouro.trim().length() == 0) {
-			throw new NoSuchFieldException("Logradouro sem valor");
-		}
-		if(logradouro.trim().length() > 60) {
-			throw new NoSuchMethodException("O logradouro deve ter no máximo 60 caracteres");
-		}
-		this.logradouro = logradouro;
 	}
 
 	public int getNumero() {
@@ -84,7 +92,7 @@ public class Endereco {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Endereco other = (Endereco) obj;
+		Endereco2 other = (Endereco2) obj;
 		return Objects.equals(cep, other.cep) && Objects.equals(cidade, other.cidade)
 				&& Objects.equals(logradouro, other.logradouro) && numero == other.numero;
 	}

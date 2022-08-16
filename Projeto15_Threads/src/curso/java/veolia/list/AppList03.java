@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import classes.Aluno;
-import classes.DocumentoCpf;
-import classes.Endereco;
-import classes.OrdenacaoLogradouro;
-import classes.OrdenaçãoCPF;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Endereco;
+import curso.java.veolia.classes.OrdenacaoLogradouro;
+import curso.java.veolia.classes.OrdenaçãoCPF;
 
 public class AppList03 {
 public static void main(String[] args) {

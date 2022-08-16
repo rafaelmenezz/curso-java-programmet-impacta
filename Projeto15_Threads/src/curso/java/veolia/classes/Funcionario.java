@@ -1,4 +1,4 @@
-package classes;
+package curso.java.veolia.classes;
 
 import curso.java.veolia.enumerados.Sexo;
 import curso.java.veolia.interfaces.Documento;

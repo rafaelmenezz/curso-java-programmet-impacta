@@ -1,6 +1,6 @@
 package curso.java.veolia.arrays;
 
-import classes.Curso;
+import curso.java.veolia.classes.Curso;
 
 public class AppArrays05 {
 

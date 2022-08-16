@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
-import classes.Utilitarios;
+import curso.java.veolia.classes.Utilitarios;
 
 public class ArquivoCursos {
 

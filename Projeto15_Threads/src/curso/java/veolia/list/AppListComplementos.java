@@ -3,10 +3,10 @@ package curso.java.veolia.list;
 import java.util.ArrayList;
 import java.util.List;
 
-import classes.Aluno;
-import classes.DocumentoCpf;
-import classes.Funcionario;
-import classes.Pessoa;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Funcionario;
+import curso.java.veolia.classes.Pessoa;
 
 public class AppListComplementos {
 

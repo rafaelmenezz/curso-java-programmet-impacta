@@ -2,9 +2,9 @@ package curso.java.veolia.aplicacao;
 
 import java.util.ArrayList;
 
-import classes.Aluno;
-import classes.Pessoa;
-import classes.Utilitarios;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.Pessoa;
+import curso.java.veolia.classes.Utilitarios;
 
 public class AppUtilitarios {
 

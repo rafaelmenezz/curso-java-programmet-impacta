@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import classes.Curso;
+import curso.java.veolia.classes.Curso;
 
 public class LeituraCursos {
 

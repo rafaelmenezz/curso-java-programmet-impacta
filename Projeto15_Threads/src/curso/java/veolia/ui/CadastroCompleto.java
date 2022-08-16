@@ -25,11 +25,11 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
-import classes.Aluno;
-import classes.Curso;
-import classes.DocumentoCnpj;
-import classes.DocumentoCpf;
-import classes.Endereco;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.Curso;
+import curso.java.veolia.classes.DocumentoCnpj;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Endereco;
 import curso.java.veolia.enumerados.Sexo;
 import curso.java.veolia.interfaces.Documento;
 

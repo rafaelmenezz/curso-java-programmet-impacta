@@ -1,6 +1,6 @@
 package curso.java.veolia.aplicacao;
 
-import classes.Utilitarios;
+import curso.java.veolia.classes.Utilitarios;
 import curso.java.veolia.interfaces.Operacao;
 
 public class AppTesteLambda {

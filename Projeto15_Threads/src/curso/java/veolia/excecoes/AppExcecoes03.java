@@ -3,7 +3,7 @@ package curso.java.veolia.excecoes;
 import java.io.IOException;
 import java.util.Scanner;
 
-import classes.DocumentoCpf;
+import curso.java.veolia.classes.DocumentoCpf;
 
 public class AppExcecoes03 {
 

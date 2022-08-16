@@ -1,9 +1,9 @@
 package curso.java.veolia.aplicacao;
 
-import classes.Aluno;
-import classes.Curso;
-import classes.DocumentoCpf;
-import classes.Pessoa;
+import curso.java.veolia.classes.Aluno;
+import curso.java.veolia.classes.Curso;
+import curso.java.veolia.classes.DocumentoCpf;
+import curso.java.veolia.classes.Pessoa;
 import curso.java.veolia.enumerados.Sexo;
 import curso.java.veolia.interfaces.Apresentacao;
 

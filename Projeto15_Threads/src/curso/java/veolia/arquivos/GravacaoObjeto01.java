@@ -3,7 +3,7 @@ package curso.java.veolia.arquivos;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
-import classes.Curso;
+import curso.java.veolia.classes.Curso;
 
 public class GravacaoObjeto01 {
 

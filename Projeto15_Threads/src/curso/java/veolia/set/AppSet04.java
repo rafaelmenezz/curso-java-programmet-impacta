@@ -4,7 +4,7 @@ package curso.java.veolia.set;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import classes.Curso;
+import curso.java.veolia.classes.Curso;
 
 public class AppSet04 {
 

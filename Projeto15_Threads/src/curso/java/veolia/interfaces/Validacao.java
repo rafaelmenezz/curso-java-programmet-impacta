@@ -1,6 +1,6 @@
 package curso.java.veolia.interfaces;
 
-import classes.Pessoa;
+import curso.java.veolia.classes.Pessoa;
 
 @FunctionalInterface
 public interface Validacao<T extends Pessoa> {
